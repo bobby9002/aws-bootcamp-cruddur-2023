@@ -153,10 +153,9 @@ paths:
       description: 'return a feed of activity based on for all of those i follow'
       tags:
       - activities
-      parameters: []
       responses:
         '200':
-          description: Returns an array of activities
+          description: 'Returns an array of activities'
           content:
            application/json:
             schema:
