@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta, timezone
-class NotifiactionsActivities:
+class NotificatonsActivities:
   def run():
     now = datetime.now(timezone.utc).astimezone()
     results = [{
