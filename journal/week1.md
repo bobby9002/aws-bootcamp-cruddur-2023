@@ -35,6 +35,49 @@ I have installed Github Desktop on windows using the following link.
 
 You can use GitHub Desktop to complete most Git commands from your desktop with visual confirmation of changes. You can push to, pull from, and clone remote repositories with GitHub Desktop, and use collaborative tools such as attributing commits and creating pull requests.
 
+once we clone the repo on the desktop we will be able to run it locally.
+
+Docker ps on local drive
+![Iamge of docker-containers-locally](https://github.com/bobby9002/aws-bootcamp-cruddur-2023/blob/main/journal/assets/locally%20on%20windows10-week1.JPG)
+
+Frontend-react-js running-locally
+![Image of frontend-react-js-locally](https://github.com/bobby9002/aws-bootcamp-cruddur-2023/blob/main/journal/assets/locally%20in%20windows-10-port-3000%20-week1.JPG)
+
+Backend-flask running locally
+![Image of backend-flask locally](https://github.com/bobby9002/aws-bootcamp-cruddur-2023/blob/main/journal/assets/locally%20in%20windows-10-port-4567-week1.JPG)
+
+Able to perform the same task on Ubuntu wsl2 on windows
+
+Docker ps on local drive
+![Iamge of docker-containers-locally-ubuntu-wsl2](https://github.com/bobby9002/aws-bootcamp-cruddur-2023/blob/main/journal/assets/locally%20on%20ubuntu-week1.JPG)
+
+Frontend-react-js running-locally-wsl2-ubuntu
+![Image of frontend-react-js-locally-wsl2-ubuntu](https://github.com/bobby9002/aws-bootcamp-cruddur-2023/blob/main/journal/assets/locally%20on%20ubuntu-frontend-week1-port3000.JPG)
+
+Backend-flask running locally-wsl2-ubuntu
+![Image of backend-flask locally-wsl2-ubuntu](https://github.com/bobby9002/aws-bootcamp-cruddur-2023/blob/main/journal/assets/locally%20on%20ubuntu-backend-week1-port4567.JPG)
+
+## Docker hub 
+
+Able to create Docker hub Repository-public ,pushed the image to repo.
+using the following commands
+
+```
+docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+docker push [OPTIONS] NAME[:TAG]
+
+```
+Docker image push to Registery
+ ![Image of Docker Push from Terminal](https://github.com/bobby9002/aws-bootcamp-cruddur-2023/blob/main/journal/assets/docker%20image%20pushed%20to%20registry-week1.JPG)
+
+Dockerhub Registery
+![Image of Dockerhub Registry](https://github.com/bobby9002/aws-bootcamp-cruddur-2023/blob/main/journal/assets/docker%20registry%20-week1.JPG)
+
+### Challenges faced during week -1
+
+- 1. Couldn't manage to include Healthchecks in Docker-Compose.yml ,tried it but still showing errors.
+- 2.still not tried to run the APP in Ec2 
+
 
 
 
